@@ -16,12 +16,6 @@ window.onload = function() {
     }
     check = 2;
   };
-  button1.onmouseout = function() {
-    if (check == 2) {
-      $("#img1").toggleClass("zoomout");
-    }
-    check = 1;
-  };
 
   c.onclick = function() {
     $("#modal_window").animate({
