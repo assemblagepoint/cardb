@@ -6,7 +6,7 @@ window.onload = function() {
   var c = document.getElementById("bg_modal_window");
   var x = document.getElementById("close_modal");
 
-  /* var button1 = document.getElementById("button1");
+   var button1 = document.getElementById("button1");
   var img1 = document.getElementById("img1");
 
   var check = 1;
@@ -21,7 +21,7 @@ window.onload = function() {
       $("#img1").toggleClass("zoomout");
     }
     check = 1;
-  };*/
+  };
 
   c.onclick = function() {
     $("#modal_window").animate({
