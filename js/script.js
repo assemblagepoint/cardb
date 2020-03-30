@@ -6,16 +6,6 @@ window.onload = function() {
   var c = document.getElementById("bg_modal_window");
   var x = document.getElementById("close_modal");
 
-   var button1 = document.getElementById("button1");
-  var img1 = document.getElementById("img1");
-
-  var check = 1;
-  button1.onmouseover = function() {
-    if (check == 1) {
-      $("#img1").toggleClass("zoom");
-    }
-    check = 2;
-  };
 
   c.onclick = function() {
     $("#modal_window").animate({
